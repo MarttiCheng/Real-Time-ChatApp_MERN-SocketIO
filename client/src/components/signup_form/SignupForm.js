@@ -32,6 +32,7 @@ const SignupForm = () => {
       password: '',
       confirmPassword: '',
    });
+   
    const { signUp, errorMessage, setErrorMessage } = useSignup();
    const { name, email, password, confirmPassword } = formData;
    const [showPassword, setShowPassword] = useState(false);
